@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
+    <title>Roshni - Electrical Engineering Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -19,27 +22,35 @@
     </header>
 
     <section id="home" class="hero">
-        <h1>Hello, I'm Your Name</h1>
-        <p>Web Developer | Designer | Programmer</p>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Electrical Engineer | Innovator | Problem Solver</p>
     </section>
 
     <section id="about">
         <h2>About Me</h2>
-        <p>A brief description of yourself, your skills, and your experience.</p>
+        <div class="about-content">
+            <img src="roshni-photo.jpg" alt="Roshni">
+            <div class="about-text">
+                <p>Hello! I'm Roshni, an electrical engineer with a passion for designing and implementing innovative solutions in the field of electrical systems and electronics. With a strong foundation in electrical theory and practical experience in circuit design, I am dedicated to advancing technology and improving lives through my work.</p>
+            </div>
+        </div>
     </section>
 
     <section id="projects">
         <h2>Projects</h2>
         <div class="project-list">
             <div class="project-item">
-                <h3>Project 1</h3>
-                <p>Description of Project 1.</p>
+                <h3>Solar Power Optimization</h3>
+                <p>Developed a system to optimize the efficiency of solar panels, increasing energy output by 15%.</p>
             </div>
             <div class="project-item">
-                <h3>Project 2</h3>
-                <p>Description of Project 2.</p>
+                <h3>Smart Grid Integration</h3>
+                <p>Worked on integrating smart grid technology with traditional power systems to improve reliability and efficiency.</p>
             </div>
-            <!-- Add more projects as needed -->
+            <div class="project-item">
+                <h3>Automated Home Lighting</h3>
+                <p>Designed and implemented a smart lighting system that adapts to natural light levels and occupancy.</p>
+            </div>
         </div>
     </section>
 
@@ -50,7 +61,10 @@
             <input type="text" id="name" name="name" required>
             
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" value="contact@roshni.com" required>
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" value="(987) 654-3210" required>
             
             <label for="message">Message:</label>
             <textarea id="message" name="message" required></textarea>
@@ -60,7 +74,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>&copy; 2024 Roshni. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
